@@ -45,6 +45,19 @@ const skills = [
 
 const techProjects = [
   {
+    title: 'App Dev Club',
+    description: "Built an AR financial planning app for UMD's Financial Wellness Center using RealityKit, Swift, and SwiftUI.",
+    image: 'images/appdev.png',
+    download: 'https://drive.google.com/drive/folders/1ygcCPKzZNCiB3z-NypEVaVCTzE46f-5E?usp=sharing'
+    
+  },
+  {
+    title: 'Fundraiser Promotion Website',
+    description: 'Using HTML/CSS/JS specifically focusing on modern UI/UX design.',
+    image: 'images/website.jpeg',
+    github: 'https://github.com/akhilapnuri/cancercaregala-website'
+  },
+  {
     title: 'Political Media Bias Research',
     description: 'Research using topic modeling (BERT, LDA, Top2Vec) and sentiment analysis (BERT) with Python and Google Colab.',
     image: 'images/researchPic.JPEG',
@@ -56,12 +69,7 @@ const techProjects = [
     image: 'images/app.JPEG',
     github: 'https://github.com/akhilapnuri/FinancialTrackerApp'
   },
-  {
-    title: 'Fundraiser Promotion Website',
-    description: 'Using HTML/CSS/JS specifically focusing on modern UI/UX design.',
-    image: 'images/website.jpeg',
-    github: 'https://github.com/akhilapnuri/cancercaregala-website'
-  },
+  
   {
     title: 'Roblox Obby Game',
     description: 'Using Lua and Roblox Developer Studio to code an entire obby game.',
@@ -77,15 +85,9 @@ const techProjects = [
   {
     title: 'TerpLabs Club',
     description: 'Ongoing: Developing an apartment subleasing and roommate-matching platform for UMD students using Next.js and Tailwind CSS.',
-    image: 'images/terplabs.webp',
-    
-  },
-  {
-    title: 'App Dev Club',
-    description: "Ongoing: Building a personal financial planning tool for UMD's Financial Wellness Center (FWC) using React and Node.js.",
-    image: 'images/appdev.png',
-    
+    image: 'images/leasetudo.png',
   }
+  
 ];
 
 // Utility: safely create element 
